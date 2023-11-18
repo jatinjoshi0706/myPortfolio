@@ -11,71 +11,81 @@ export const filters = [
         id: "all",
     },
     {
-        name: "Dashboard",
-        id: "dashboard",
+        name: "React",
+        id: "React",
     },
     {
-        name: "Mobile App",
-        id: "mobile-app",
+        name: "Flask",
+        id: "Flask",
     },
     {
-        name: "Website",
-        id: "website",
+        name: "CMS",
+        id: "CMS",
     },
 ];
 
 export const projects = [
     {
-        name: "Join the Innovative Car Wash Service",
-        image: p1,
-        tags: ["dashboard", "mobile-app"],
-    },
-    {
-        name: "Your Luggage is in Safe Hands",
-        image: p2,
-        tags: ["dashboard", "website"],
-    },
-    {
-        name: "The Art of Hiring",
+        name: "Stepup & Dance Academy",
         image: p3,
-        tags: ["mobile-app"],
+        tags: ["CMS"]
     },
     {
-        name: "We Are Solving Global Problems",
+        name: "Catalyst World School",
+        image: p1,
+        tags: ["CMS"],
+    },
+    {
+        name: "Eduvest Connect",
+        image: p2,
+        tags: ["CMS"],
+    },
+    {
+        name: "Swayamflc",
         image: p4,
-        tags: ["mobile-app"],
+        tags: ["CMS"],
     },
     {
-        name: "The English Tea Ceremony",
+        name: "Todo",
         image: p5,
-        tags: ["website", "dashboard"],
+        tags: ["Flask"],
     },
     {
-        name: "Saving Photo Memories",
+        name: "Digi Store",
         image: p6,
-        tags: ["website"],
+        tags: ["React", "Flask"],
+    },
+    {
+        name: "Youtube Clone",
+        image: p6,
+        tags: ["React"],
+    },
+    {
+        name: "Movix",
+        image: p6,
+        tags: ["React"],
     },
 ];
 
 export const achievements = [
     {
         id: 1,
-        year: 80,
+        year: 7,
         description: "SUCCESSFULLY<br />COMPLETED<br />PROJECTS",
     },
     {
         id: 2,
-        year: 15,
+        year: 2,
         description: "YEARS OF<br />EXPERIENCE",
     },
     {
         id: 3,
-        year: 25,
+        year: 5,
         description: "TECHNOLOGIES",
     },
     {
         id: 4,
         year: 70,
-        description: "COMMUNITY<br />POSTS",
+        description: "XY<br/>za",
     },
 ];

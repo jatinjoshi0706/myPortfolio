@@ -56,12 +56,12 @@ const Portfolio = () => {
                     return (
                         <Div
                             key={index}
-                            className="flex flex-col gap-4 cursor-pointer"
+                            className="flex flex-col gap-2 cursor-pointer"
                         >
-                            <div className="bg-black rounded-[20px] aspect-video overflow-hidden">
+                            <div className="bg-black rounded-[20px] aspect-[2] overflow-hidden">
                                 <img
                                     src={item.image}
-                                    className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
+                                    // className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
                                 />
                             </div>
                             <div className="text-[20px] 2xl:text-[24px] text-[#CCCCCC] text-center">
