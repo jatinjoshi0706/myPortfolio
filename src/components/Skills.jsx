@@ -62,11 +62,15 @@ const Skills = () => {
                                 title="Frontend Development"
                                 desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
                                 data={[
-                                    "Prototype",
-                                    "Wireframe",
-                                    "User Experience",
-                                    "Prototype",
-                                    "Prototype",
+                                    // "Prototype",
+                                    // "Wireframe",
+                                    // "User Experience",
+                                    // "Prototype",
+                                    "React",
+                                    "Next",
+                                    "BootStrap",
+                                    "TailWind",
+
                                 ]}
                             />
                         <Service
@@ -74,11 +78,9 @@ const Skills = () => {
                             title="Backend Development"
                             desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
                             data={[
-                                "Prototype",
-                                "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
+                                "Flask",
+                                "DataBase",
+                                "Django",
                             ]}
                             
                         />
@@ -87,11 +89,9 @@ const Skills = () => {
                             title="Wordpress Development"
                             desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
                             data={[
-                                "Prototype",
+                                "Plugin",
                                 "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
+                                "User Experience",                                
                             ]}
                         />
                     </div>

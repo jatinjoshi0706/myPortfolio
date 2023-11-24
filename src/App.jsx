@@ -9,9 +9,9 @@ function App() {
     return (
         <div className="App">
             <HeroBanner />
-            <Skills />
-            <Testimonials />
             <AboutMe />
+            <Skills />
+            {/* <Testimonials /> */}
             <Contact />
             <Footer />
         </div>

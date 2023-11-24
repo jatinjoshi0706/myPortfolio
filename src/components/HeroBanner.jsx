@@ -32,8 +32,8 @@ const HeroBanner = () => {
 
             <Wrapper>
                 {/* NAVBAR START */}
-                <motion.div
-                    className="hidden md:flex items-center justify-between mt-[40px] 2xl:mt-[63px] relative bottom-8"
+                <div
+                    className="hidden md:flex items-center justify-between mt-[40px] 2xl:mt-[63px] relative bottom-2"
                     initial={{ y: -200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
@@ -70,7 +70,7 @@ const HeroBanner = () => {
                             Contact
                         </li>
                     </ul>
-                </motion.div>
+                </div>
                 {/* NAVBAR END */}
 
                 {/* BIG HEADING START */}
@@ -90,19 +90,19 @@ const HeroBanner = () => {
 
                 {/* INTRO START */}
                 <motion.div
-  className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative bottom-10"
-  initial={{ y: -300, opacity: 0 }} // Change y value to a negative number
-  animate={{ y: 0, opacity: 1 }}
-  transition={{ duration: 0.7, delay: 0.25 }}
->
-  <div className="font-light mb-4">
-    👋 Hi, I Am{" "}
-    <span className="font-semibold">Jatin Joshi</span>
-  </div>
-  <div className="max-w-[520px]">
-    🚀 Crafting and maintaining cutting-edge websites and applications is my expertise. I specialize in solving your business problems with precision and innovation. Let's elevate your digital presence together.
-  </div>
-</motion.div>
+                    className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative bottom-10"
+                    initial={{ y: -300, opacity: 0 }} // Change y value to a negative number
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.7, delay: 0.25 }}
+                >
+                    <div className="font-light mb-4">
+                        👋 Hi, I Am{" "}
+                        <span className="font-semibold">Jatin Joshi</span>
+                    </div>
+                    <div className="max-w-[384px]">
+                        🚀 Crafting and maintaining cutting-edge websites and applications is my expertise. I specialize in solving your business problems with precision and innovation. Let's elevate your digital presence together.
+                    </div>
+                </motion.div>
 
                 {/* INTRO END */}
 
@@ -140,13 +140,22 @@ const HeroBanner = () => {
                 {/* NUMBER BLOCK END */}
 
                 {/* PERSON BLOCK START */}
-                <motion.div
+                {/* <motion.div
                     className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
                     initial={{ y: 200, x: "-50%" }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
+                    <img src={man} alt="" /> */}
+                <motion.div
+                    className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[80%] right-0 translate-x-1/2"
+                    initial={{ y: 200, x: "-50%" }}
+                    animate={{ y: 0 }}
+                    transition={{ duration: 0.5 }}
+                >
                     <img src={man} alt="" />
+
+
 
                     {/* HIRE ME BUTTON START */}
                     <div
