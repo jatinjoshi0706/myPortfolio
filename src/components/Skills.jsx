@@ -60,7 +60,7 @@ const Skills = () => {
                     <Service
                                 num="1"
                                 title="Frontend Development"
-                                desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+                                desc="As a frontend developer, I specialize in React and Next.js for building dynamic and responsive web applications. My design approach integrates Bootstrap for sleek components and Tailwind CSS for flexible and modern styles. With a focus on user experience and the latest trends, I create engaging interfaces that showcase my expertise in frontend development."
                                 data={[
                                     // "Prototype",
                                     // "Wireframe",
@@ -76,7 +76,7 @@ const Skills = () => {
                         <Service
                             num="2"
                             title="Backend Development"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+                            desc="As a backend developer, I excel in Flask and Django, creating efficient and scalable solutions. Proficient in database management, I ensure seamless data handling for robust web applications."
                             data={[
                                 "Flask",
                                 "DataBase",
@@ -87,7 +87,7 @@ const Skills = () => {
                         <Service
                             num="3"
                             title="Wordpress Development"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+                            desc="As a WordPress developer, I specialize in crafting custom plugins and wireframes to optimize user experience. My expertise ensures seamless integrations and intuitive interfaces for websites."
                             data={[
                                 "Plugin",
                                 "Wireframe",
@@ -96,26 +96,34 @@ const Skills = () => {
                         />
                     </div>
                     {/* SERVICES END */}
-
+                    {/* A Showcase  Skills Expertise */}
                     {/* SECTION HEADING START */}
                     <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
-                        <span>Solving</span>
-                        <span>Problems</span>
+                        <span>Showcase</span>
+                        <span>of My </span>
                         <span className="flex items-center gap-2">
-                            Through
+                        Skills  
                             <img
                                 src={pattern}
                                 className="block md:hidden w-[80px] mt-1"
                             />
                         </span>
                         <span className="flex items-center gap-4">
-                            Good{" "}
+                        and
+                        {" "}
                             <img
                                 src={pattern}
                                 className="hidden md:block md:w-[140px] 2xl:w-[190px] mt-3"
                             />
                         </span>
-                        <span>Services</span>
+                        <span className="flex items-center gap-4">
+                        Expertise
+                        {/* {" "}
+                            <img
+                                src={pattern}
+                                className="hidden md:block md:w-[140px] 2xl:w-[190px] mt-3"
+                            /> */}
+                        </span>
                     </div>
                     {/* SECTION HEADING END */}
                 </div>

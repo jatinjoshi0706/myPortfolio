@@ -28,42 +28,26 @@ export const projects = [
     {
         name: "Stepup & Dance Academy",
         image: p3,
-        tags: ["CMS"]
+        tags: ["CMS"],
+        href:"https://www.stepupofficial.com/"
     },
     {
         name: "Catalyst World School",
         image: p1,
         tags: ["CMS"],
+        href:"https://www.catalystworldschool.com/"
     },
     {
         name: "Eduvest Connect",
         image: p2,
         tags: ["CMS"],
+        href:"https://www.eduvestconnect.com/"
     },
     {
         name: "Swayamflc",
         image: p4,
         tags: ["CMS"],
-    },
-    {
-        name: "Todo",
-        image: p5,
-        tags: ["Flask"],
-    },
-    {
-        name: "Digi Store",
-        image: p6,
-        tags: ["React", "Flask"],
-    },
-    {
-        name: "Youtube Clone",
-        image: p6,
-        tags: ["React"],
-    },
-    {
-        name: "Movix",
-        image: p6,
-        tags: ["React"],
+        href:"https://swayamflc.in/"
     },
 ];
 

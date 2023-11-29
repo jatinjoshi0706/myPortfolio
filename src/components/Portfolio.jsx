@@ -17,6 +17,9 @@ const Portfolio = () => {
         }
         setProjectData(filteredProjects);
     };
+    const handleItemClick = (clickedItem) =>{
+        window.open(clickedItem.href,"_blank","noopener noreferrer")
+    }
 
     return (
         <div id="work" className="mt-10 relative">
@@ -57,6 +60,7 @@ const Portfolio = () => {
                         <Div
                             key={index}
                             className="flex flex-col gap-2 cursor-pointer"
+                            onClick={() => handleItemClick(item)}
                         >
                             <div className="bg-black rounded-[20px] aspect-[2] overflow-hidden">
                                 <img
